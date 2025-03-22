@@ -1,0 +1,48 @@
+Namespace(arch='resdcn_18', batch_size=48, ckpt_dir='./ckpt/coco_hg_512_dp', data_dir='./data', dataset='neontree', dist=False, img_size=512, local_rank=0, log_dir='./logs/coco_hg_512_dp', log_interval=100, log_name='coco_hg_512_dp', lr=0.0005, lr_step=[90, 120], num_epochs=140, num_workers=1, pretrain_dir='./ckpt/pretrain/checkpoint.t7', pretrain_name='pretrain', root_dir='./', split_ratio=1.0, test_topk=100, val_interval=5) [2025-03-05 18:31:16,122]
+Setting up data... [2025-03-05 18:31:17,287]
+Creating model... [2025-03-05 18:31:17,347]
+Starting training... [2025-03-05 18:31:18,362]
+
+ Epoch: 1 [2025-03-05 18:31:18,363]
+ -- train [2025-03-05 18:31:18,364]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:19,943]
+
+ Epoch: 2 [2025-03-05 18:31:20,004]
+ -- train [2025-03-05 18:31:20,008]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:21,417]
+
+ Epoch: 3 [2025-03-05 18:31:21,419]
+ -- train [2025-03-05 18:31:21,422]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:23,418]
+
+ Epoch: 4 [2025-03-05 18:31:23,421]
+ -- train [2025-03-05 18:31:23,424]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:25,223]
+
+ Epoch: 5 [2025-03-05 18:31:25,225]
+ -- train [2025-03-05 18:31:25,228]
+
+ Val@Epoch: 5 [2025-03-05 18:31:25,325]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 18:31:29,355]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:31,344]
+
+ Epoch: 6 [2025-03-05 18:31:31,346]
+ -- train [2025-03-05 18:31:31,349]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:33,204]
+
+ Epoch: 7 [2025-03-05 18:31:33,206]
+ -- train [2025-03-05 18:31:33,209]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:34,777]
+
+ Epoch: 8 [2025-03-05 18:31:34,778]
+ -- train [2025-03-05 18:31:34,779]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:36,376]
+
+ Epoch: 9 [2025-03-05 18:31:36,378]
+ -- train [2025-03-05 18:31:36,381]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 18:31:37,498]
+
+ Epoch: 10 [2025-03-05 18:31:37,498]
+ -- train [2025-03-05 18:31:37,499]
+
+ Val@Epoch: 10 [2025-03-05 18:31:37,540]

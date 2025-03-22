@@ -1,0 +1,6 @@
+python3.8 train.py --log_name coco_hg_512_dp --dataset neontree --arch large_hourglass --lr 5e-4 --lr_step 90,120 --batch_size 2 --num_epochs 140 --num_workers 1
+python3.8 train.py --log_name coco_hg_512_dp --dataset neontree --arch resdcn_18 --lr 5e-4 --lr_step 90,120 --batch_size 2 --num_epochs 140 --num_workers 1
+
+
+
+python3.8 demo.py --img_dir ./demo.jpg --ckpt_dir ./ckpt/pascal_resdcn18_512/checkpoint.t7 --arch resdcn_18 --img_size 512

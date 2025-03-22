@@ -1,0 +1,7 @@
+Namespace(arch='resdcn_18', batch_size=2, ckpt_dir='./ckpt/coco_hg_512_dp', data_dir='./data', dataset='neontree', dist=False, img_size=512, local_rank=0, log_dir='./logs/coco_hg_512_dp', log_interval=100, log_name='coco_hg_512_dp', lr=0.0005, lr_step=[90, 120], num_epochs=140, num_workers=1, pretrain_dir='./ckpt/pretrain/checkpoint.t7', pretrain_name='pretrain', root_dir='./', split_ratio=1.0, test_topk=100, val_interval=5) [2025-03-05 18:38:17,241]
+Setting up data... [2025-03-05 18:38:18,135]
+Creating model... [2025-03-05 18:38:18,193]
+Starting training... [2025-03-05 18:38:18,815]
+
+ Epoch: 1 [2025-03-05 18:38:18,816]
+ -- train [2025-03-05 18:38:18,818]

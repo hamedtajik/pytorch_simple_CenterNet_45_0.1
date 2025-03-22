@@ -1,0 +1,470 @@
+Namespace(arch='resdcn_18', batch_size=48, ckpt_dir='./ckpt/coco_hg_512_dp', data_dir='./data', dataset='neontree', dist=False, img_size=512, local_rank=0, log_dir='./logs/coco_hg_512_dp', log_interval=100, log_name='coco_hg_512_dp', lr=0.0005, lr_step=[90, 120], num_epochs=140, num_workers=1, pretrain_dir='./ckpt/pretrain/checkpoint.t7', pretrain_name='pretrain', root_dir='./', split_ratio=1.0, test_topk=100, val_interval=5) [2025-03-05 15:43:51,793]
+Setting up data... [2025-03-05 15:43:52,819]
+Creating model... [2025-03-05 15:43:52,903]
+Starting training... [2025-03-05 15:43:53,374]
+
+ Epoch: 1 [2025-03-05 15:43:53,375]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:43:54,097]
+
+ Epoch: 2 [2025-03-05 15:43:54,261]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:43:54,964]
+
+ Epoch: 3 [2025-03-05 15:43:54,965]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:43:55,794]
+
+ Epoch: 4 [2025-03-05 15:43:55,797]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:43:56,511]
+
+ Epoch: 5 [2025-03-05 15:43:56,512]
+
+ Val@Epoch: 5 [2025-03-05 15:43:56,565]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:00,028]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:00,654]
+
+ Epoch: 6 [2025-03-05 15:44:00,655]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:01,323]
+
+ Epoch: 7 [2025-03-05 15:44:01,324]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:02,079]
+
+ Epoch: 8 [2025-03-05 15:44:02,080]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:02,739]
+
+ Epoch: 9 [2025-03-05 15:44:02,740]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:03,718]
+
+ Epoch: 10 [2025-03-05 15:44:03,719]
+
+ Val@Epoch: 10 [2025-03-05 15:44:03,777]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:07,035]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:08,004]
+
+ Epoch: 11 [2025-03-05 15:44:08,005]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:08,755]
+
+ Epoch: 12 [2025-03-05 15:44:08,757]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:09,851]
+
+ Epoch: 13 [2025-03-05 15:44:09,854]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:10,661]
+
+ Epoch: 14 [2025-03-05 15:44:10,662]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:11,663]
+
+ Epoch: 15 [2025-03-05 15:44:11,664]
+
+ Val@Epoch: 15 [2025-03-05 15:44:11,735]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:14,672]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:15,360]
+
+ Epoch: 16 [2025-03-05 15:44:15,361]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:16,169]
+
+ Epoch: 17 [2025-03-05 15:44:16,171]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:16,858]
+
+ Epoch: 18 [2025-03-05 15:44:16,860]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:17,670]
+
+ Epoch: 19 [2025-03-05 15:44:17,672]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:18,440]
+
+ Epoch: 20 [2025-03-05 15:44:18,442]
+
+ Val@Epoch: 20 [2025-03-05 15:44:19,004]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:22,148]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:22,839]
+
+ Epoch: 21 [2025-03-05 15:44:22,841]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:23,697]
+
+ Epoch: 22 [2025-03-05 15:44:23,698]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:24,411]
+
+ Epoch: 23 [2025-03-05 15:44:24,413]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:25,340]
+
+ Epoch: 24 [2025-03-05 15:44:25,342]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:26,097]
+
+ Epoch: 25 [2025-03-05 15:44:26,099]
+
+ Val@Epoch: 25 [2025-03-05 15:44:26,179]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:29,123]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:29,812]
+
+ Epoch: 26 [2025-03-05 15:44:29,813]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:30,600]
+
+ Epoch: 27 [2025-03-05 15:44:30,601]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:31,372]
+
+ Epoch: 28 [2025-03-05 15:44:31,373]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:32,301]
+
+ Epoch: 29 [2025-03-05 15:44:32,302]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:33,154]
+
+ Epoch: 30 [2025-03-05 15:44:33,156]
+
+ Val@Epoch: 30 [2025-03-05 15:44:33,244]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:36,424]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:37,800]
+
+ Epoch: 31 [2025-03-05 15:44:37,802]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:38,861]
+
+ Epoch: 32 [2025-03-05 15:44:38,863]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:39,935]
+
+ Epoch: 33 [2025-03-05 15:44:39,937]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:41,470]
+
+ Epoch: 34 [2025-03-05 15:44:41,471]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:42,889]
+
+ Epoch: 35 [2025-03-05 15:44:42,891]
+
+ Val@Epoch: 35 [2025-03-05 15:44:42,982]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:45,834]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:46,903]
+
+ Epoch: 36 [2025-03-05 15:44:46,905]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:48,496]
+
+ Epoch: 37 [2025-03-05 15:44:48,497]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:49,743]
+
+ Epoch: 38 [2025-03-05 15:44:49,744]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:50,853]
+
+ Epoch: 39 [2025-03-05 15:44:50,855]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:52,190]
+
+ Epoch: 40 [2025-03-05 15:44:52,191]
+
+ Val@Epoch: 40 [2025-03-05 15:44:52,242]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:44:55,161]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:56,016]
+
+ Epoch: 41 [2025-03-05 15:44:56,018]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:57,081]
+
+ Epoch: 42 [2025-03-05 15:44:57,083]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:58,321]
+
+ Epoch: 43 [2025-03-05 15:44:58,323]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:44:59,553]
+
+ Epoch: 44 [2025-03-05 15:44:59,555]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:00,927]
+
+ Epoch: 45 [2025-03-05 15:45:00,929]
+
+ Val@Epoch: 45 [2025-03-05 15:45:01,005]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:04,190]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:05,122]
+
+ Epoch: 46 [2025-03-05 15:45:05,123]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:06,252]
+
+ Epoch: 47 [2025-03-05 15:45:06,254]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:07,313]
+
+ Epoch: 48 [2025-03-05 15:45:07,314]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:08,437]
+
+ Epoch: 49 [2025-03-05 15:45:08,439]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:09,583]
+
+ Epoch: 50 [2025-03-05 15:45:09,588]
+
+ Val@Epoch: 50 [2025-03-05 15:45:09,703]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:12,945]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:13,822]
+
+ Epoch: 51 [2025-03-05 15:45:13,823]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:14,811]
+
+ Epoch: 52 [2025-03-05 15:45:14,813]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:15,695]
+
+ Epoch: 53 [2025-03-05 15:45:15,697]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:16,496]
+
+ Epoch: 54 [2025-03-05 15:45:16,497]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:17,473]
+
+ Epoch: 55 [2025-03-05 15:45:17,476]
+
+ Val@Epoch: 55 [2025-03-05 15:45:17,590]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:20,580]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:21,587]
+
+ Epoch: 56 [2025-03-05 15:45:21,588]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:22,574]
+
+ Epoch: 57 [2025-03-05 15:45:22,575]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:23,611]
+
+ Epoch: 58 [2025-03-05 15:45:23,613]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:24,386]
+
+ Epoch: 59 [2025-03-05 15:45:24,388]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:25,468]
+
+ Epoch: 60 [2025-03-05 15:45:25,471]
+
+ Val@Epoch: 60 [2025-03-05 15:45:25,578]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:28,323]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:29,390]
+
+ Epoch: 61 [2025-03-05 15:45:29,391]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:30,170]
+
+ Epoch: 62 [2025-03-05 15:45:30,172]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:31,424]
+
+ Epoch: 63 [2025-03-05 15:45:31,425]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:32,110]
+
+ Epoch: 64 [2025-03-05 15:45:32,112]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:33,124]
+
+ Epoch: 65 [2025-03-05 15:45:33,125]
+
+ Val@Epoch: 65 [2025-03-05 15:45:33,181]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:35,857]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:36,660]
+
+ Epoch: 66 [2025-03-05 15:45:36,661]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:37,310]
+
+ Epoch: 67 [2025-03-05 15:45:37,312]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:38,131]
+
+ Epoch: 68 [2025-03-05 15:45:38,133]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:38,897]
+
+ Epoch: 69 [2025-03-05 15:45:38,899]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:39,877]
+
+ Epoch: 70 [2025-03-05 15:45:39,878]
+
+ Val@Epoch: 70 [2025-03-05 15:45:39,927]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:42,533]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:43,410]
+
+ Epoch: 71 [2025-03-05 15:45:43,410]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:44,070]
+
+ Epoch: 72 [2025-03-05 15:45:44,071]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:44,855]
+
+ Epoch: 73 [2025-03-05 15:45:44,856]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:45,467]
+
+ Epoch: 74 [2025-03-05 15:45:45,468]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:46,264]
+
+ Epoch: 75 [2025-03-05 15:45:46,266]
+
+ Val@Epoch: 75 [2025-03-05 15:45:46,324]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:49,015]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:49,910]
+
+ Epoch: 76 [2025-03-05 15:45:49,911]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:50,567]
+
+ Epoch: 77 [2025-03-05 15:45:50,569]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:51,374]
+
+ Epoch: 78 [2025-03-05 15:45:51,375]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:52,222]
+
+ Epoch: 79 [2025-03-05 15:45:52,223]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:53,154]
+
+ Epoch: 80 [2025-03-05 15:45:53,156]
+
+ Val@Epoch: 80 [2025-03-05 15:45:53,206]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:45:55,821]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:56,691]
+
+ Epoch: 81 [2025-03-05 15:45:56,695]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:57,425]
+
+ Epoch: 82 [2025-03-05 15:45:57,426]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:58,547]
+
+ Epoch: 83 [2025-03-05 15:45:58,549]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:45:59,803]
+
+ Epoch: 84 [2025-03-05 15:45:59,805]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:01,411]
+
+ Epoch: 85 [2025-03-05 15:46:01,412]
+
+ Val@Epoch: 85 [2025-03-05 15:46:01,465]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:04,845]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:05,856]
+
+ Epoch: 86 [2025-03-05 15:46:05,857]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:07,153]
+
+ Epoch: 87 [2025-03-05 15:46:07,154]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:08,409]
+
+ Epoch: 88 [2025-03-05 15:46:08,411]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:09,944]
+
+ Epoch: 89 [2025-03-05 15:46:09,946]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:10,727]
+
+ Epoch: 90 [2025-03-05 15:46:10,728]
+
+ Val@Epoch: 90 [2025-03-05 15:46:10,813]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:14,534]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:15,546]
+
+ Epoch: 91 [2025-03-05 15:46:15,547]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:16,475]
+
+ Epoch: 92 [2025-03-05 15:46:16,477]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:17,921]
+
+ Epoch: 93 [2025-03-05 15:46:17,923]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:19,099]
+
+ Epoch: 94 [2025-03-05 15:46:19,100]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:20,352]
+
+ Epoch: 95 [2025-03-05 15:46:20,354]
+
+ Val@Epoch: 95 [2025-03-05 15:46:20,438]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:23,770]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:25,255]
+
+ Epoch: 96 [2025-03-05 15:46:25,256]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:26,863]
+
+ Epoch: 97 [2025-03-05 15:46:26,864]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:28,373]
+
+ Epoch: 98 [2025-03-05 15:46:28,377]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:29,887]
+
+ Epoch: 99 [2025-03-05 15:46:29,888]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:31,213]
+
+ Epoch: 100 [2025-03-05 15:46:31,215]
+
+ Val@Epoch: 100 [2025-03-05 15:46:31,291]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:34,300]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:35,279]
+
+ Epoch: 101 [2025-03-05 15:46:35,282]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:37,003]
+
+ Epoch: 102 [2025-03-05 15:46:37,006]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:38,007]
+
+ Epoch: 103 [2025-03-05 15:46:38,010]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:38,842]
+
+ Epoch: 104 [2025-03-05 15:46:38,843]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:40,091]
+
+ Epoch: 105 [2025-03-05 15:46:40,093]
+
+ Val@Epoch: 105 [2025-03-05 15:46:40,175]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:43,256]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:44,161]
+
+ Epoch: 106 [2025-03-05 15:46:44,162]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:45,289]
+
+ Epoch: 107 [2025-03-05 15:46:45,290]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:46,376]
+
+ Epoch: 108 [2025-03-05 15:46:46,378]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:47,349]
+
+ Epoch: 109 [2025-03-05 15:46:47,350]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:48,400]
+
+ Epoch: 110 [2025-03-05 15:46:48,401]
+
+ Val@Epoch: 110 [2025-03-05 15:46:48,465]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:46:51,350]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:52,830]
+
+ Epoch: 111 [2025-03-05 15:46:52,832]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:54,047]
+
+ Epoch: 112 [2025-03-05 15:46:54,048]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:54,928]
+
+ Epoch: 113 [2025-03-05 15:46:54,929]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:56,121]
+
+ Epoch: 114 [2025-03-05 15:46:56,122]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:46:57,439]
+
+ Epoch: 115 [2025-03-05 15:46:57,442]
+
+ Val@Epoch: 115 [2025-03-05 15:46:57,582]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:47:01,038]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:02,319]
+
+ Epoch: 116 [2025-03-05 15:47:02,321]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:03,654]
+
+ Epoch: 117 [2025-03-05 15:47:03,656]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:04,791]
+
+ Epoch: 118 [2025-03-05 15:47:04,793]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:05,715]
+
+ Epoch: 119 [2025-03-05 15:47:05,716]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:07,025]
+
+ Epoch: 120 [2025-03-05 15:47:07,027]
+
+ Val@Epoch: 120 [2025-03-05 15:47:07,119]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:47:09,876]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:10,987]
+
+ Epoch: 121 [2025-03-05 15:47:10,988]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:12,022]
+
+ Epoch: 122 [2025-03-05 15:47:12,024]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:13,085]
+
+ Epoch: 123 [2025-03-05 15:47:13,086]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:14,599]
+
+ Epoch: 124 [2025-03-05 15:47:14,602]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:15,843]
+
+ Epoch: 125 [2025-03-05 15:47:15,845]
+
+ Val@Epoch: 125 [2025-03-05 15:47:15,929]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [2025-03-05 15:47:19,079]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:20,048]
+
+ Epoch: 126 [2025-03-05 15:47:20,049]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:21,514]
+
+ Epoch: 127 [2025-03-05 15:47:21,516]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:23,115]
+
+ Epoch: 128 [2025-03-05 15:47:23,117]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:24,944]
+
+ Epoch: 129 [2025-03-05 15:47:24,947]
+checkpoint saved in ./ckpt/coco_hg_512_dp/checkpoint ! [2025-03-05 15:47:26,658]
+
+ Epoch: 130 [2025-03-05 15:47:26,660]
+
+ Val@Epoch: 130 [2025-03-05 15:47:26,727]
